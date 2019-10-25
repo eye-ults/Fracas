@@ -1,0 +1,114 @@
+[
+    {"id":1,
+    "first_name":"Rosella",
+    "last_name":"Strattan",
+    "email":"rstrattan0@marriott.com",
+    "gender":"Female",
+    "ip_address":"39.210.66.249",
+    "username":"Brocket, brown",
+    "user_lvl":24,
+    "games_played":1337,
+    "games":
+        [
+            {"Smash Bros 4": {"game_lvl": 5}},
+            {"Mario Kart": {"game_lvl": 1}},
+            {"Street Fighter V" : {"game_lvl": 0}},
+            {"Super Bowling" : {"game_lvl": 3}}
+        ],
+    "rivals":
+        [
+            {}
+        ],
+    "location":"Manique de Baixo"},
+
+{"id":2,
+    "first_name":"Frieda",
+    "last_name":"Goodridge",
+    "email":"fgoodridge1@xing.com",
+    "gender":"Female",
+    "ip_address":"71.54.152.196",
+    "username":"Eurasian badger",
+    "user_lvl":23,
+    "games_played":17,
+    "games":
+        [
+            {"Smash Bros Ultimate": {"game_lvl": 1}},
+            {"Towerfall": {"game_lvl": 5}},
+            {"Street Fighter IV": {"game_lvl": 3}},
+            {"Kirby Super Star - Megaton Punch": {"game_lvl": 5}}
+        ],
+    "rivals":
+        [
+            {"Georgetta": "user_lvl"}
+        ],
+    "location":"Texas"},
+
+{"id":3,
+    "first_name":"Georgetta",
+    "last_name":"Kliment",
+    "email":"gkliment2@friendfeed.com",
+    "gender":"Female",
+    "ip_address":"114.57.28.27",
+    "username":"Lesser flamingo",
+    "user_lvl":79,
+    "games_played":15,
+    "games":
+        [
+            {"Smash Bros Ultimate": {"game_lvl": 5}},
+            {"Towerfall": {"game_lvl": 4}},
+            {"Mortal Kombat 11": {"game_lvl": 2}},
+            {"Kirby Super Star - Megaton Punch": {"game_lvl": 2}}
+        ],
+    "rivals":
+        [
+            {"Edgard": "user_lvl"},
+            {"Cheston": "user_lvl"}
+        ],
+    "location":"Seattle"},
+
+{"id":4,
+    "first_name":"Edgard",
+    "last_name":"Cash",
+    "email":"ecash3@ning.com",
+    "gender":"Male",
+    "ip_address":"182.182.158.0",
+    "username":"Trumpeter, green-winged",
+    "user_lvl":62,
+    "games_played":24,
+    "games":
+        [
+            {"Smash Bros Brawl": {"game_lvl": 1}},
+            {"Skull Girls": {"game_lvl": 3}},
+            {"Tekken": {"game_lvl": 0.25}}
+        ],
+    "rivals":
+        [
+            {"Rosella": "user_lvl"},
+            {"Edgard": "user_lvl"},
+            {"Frieda": "user_lvl"}
+        ],
+    "location":"Rāwandūz"},
+
+{"id":5,
+    "first_name":"Cheston",
+    "last_name":"Trematick",
+    "email":"ctrematick4@geocities.jp",
+    "gender":"Male",
+    "ip_address":"116.190.226.87",
+    "username":"Butterfly, canadian tiger swallowtail",
+    "user_lvl":54,
+    "games_played":47,
+    "games":
+        [
+            {"Smash Bros Ultimate": {"game_lvl": 0.5}},
+            {"Street Fighter 2": {"game_lvl": 2}},
+            {"Street Fighter III - 3rd Strike": {"game_lvl": 4}},
+            {"Towerfall": {"game_lvl": 5}},
+            {"Tekken": {"game_lvl": 1}}
+        ],
+    "rivals":
+        [
+            {}
+        ],
+    "location":"Denver"}
+]
