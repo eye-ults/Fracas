@@ -1,0 +1,23 @@
+{
+  "name": "fracas",
+  "version": "1.0.0",
+  "description": "Tournament App",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eye-ults/Fracas.git"
+  },
+  "author": "Spencer Ailts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eye-ults/Fracas/issues"
+  },
+  "homepage": "https://github.com/eye-ults/Fracas#readme"
+}
