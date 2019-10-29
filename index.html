@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <title>My test page</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="styles/normalize.css" rel="stylesheet" type="text/css">
     <link href="styles/colors.css" rel="stylesheet" type="text/css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
+  
   <body>
-    <div>
-      <h1>Register</h1>
-      <form action=""></form>
-      <div>"show users names"</div>
+    <header><h1>Formal Fracas</h1></header>
+    <div id="signUp">
+      <h1>Register Here</h1>
+      <input type='text' placeholder="Real Name Here" v-model.trim="newPlayer" v-on:keyup.enter="addPlayer">
+      <button v-on:click="addPlayer" v-bind:disabled="newPlayer.length < 5">
+        +ADD
+      </button>
+
+      <ul>
+        <li v-for="player in currentPlayers">{{ player.name }}</li>
+      </ul>
+      <h1>{{greet()}}</h1>
     </div>
-    <!-- <div id="teamName">""</div>
+    <div id="tourament"></div>
+    <div id="t-userinfo">
+      <h1>{{name}}</h1>
+    </div>
+    <footer></footer>
+    <div id="teamName">""</div>
     <div class="gameCard">
-      <div class="playerImg"><img src="https://avatars3.githubusercontent.com/u/1268560?v=4" alt="Spencer Image"></div>
+      <div class="playerImg"><img src="https://api.twitch.tv/e_raticwatcher/users/profile_image_url" alt="Spencer Image"></div>
       <div id="gameTitle">Smash Bro's Ultimate</div>
       <div id="lvl"></div>
       <div class="bar">
@@ -24,10 +38,12 @@
           <div id=percent></div>
         </div>
       </div>
-    </div> -->
+    </div>
     <script type="text/javascript" src="data/profile.json"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/twitch.js"></script>
     <script src="scripts/xpbar.js"></script>
-    <!-- <script src="scripts/fetch.js"></script> -->
     <script src="scripts/teamGen.js"></script>
   </body>
 </html>

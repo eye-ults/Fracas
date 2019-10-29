@@ -1,5 +1,16 @@
 "use strict";
-
+new Vue({
+    el: '#tournament',
+    data: {
+        isActive:'false',
+        gameName: '',
+        numPlayers: '',
+        rules: {
+            tournyType: 'singleElimination',
+            bestOf: '',
+        }
+    }
+});
 //Make Tournament
 const makeTournament = "";
 //Game
@@ -10,10 +21,7 @@ const makeTournament = "";
 //QR Sign-up Code
 //Spectator Code
 
-// Sign up
-    //-Manual entree of player names 
-    //- Add to tournament
-    //- Remove names
+
 
 //Start Tournament
 const currentTournament = "";
