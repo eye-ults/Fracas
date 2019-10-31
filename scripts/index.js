@@ -1,10 +1,11 @@
 "use strict";
+import Vue from 'vue'
 // Sign up
     //-Manual entree of player names 
     //- Add to tournament
     //- Remove names
 
-const app = new Vue({
+new Vue ({
     
     el: '#signUp',
     data: {
@@ -23,7 +24,7 @@ const app = new Vue({
             } else {
                 this.currentPlayers.push({name: this.newPlayer})
                 this.newPlayer = ''
-            };
+            }
         },
         greet: function() {
             return  'Welcome!' + ' ' + this.newPlayer
